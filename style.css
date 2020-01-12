@@ -52,7 +52,13 @@
     left: 50%;
     overflow: hidden;
     box-shadow: 0px 0px 20px rgb(87, 87, 87), inset 0px 0px 20px rgb(83, 83, 83);
+    transition: .1s;
+
     cursor: url('heart.png'),pointer;
+}
+#magnify:active{
+   width: 300px;
+   height: 300px;
 }
 
 
