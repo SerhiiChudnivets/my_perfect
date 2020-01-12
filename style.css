@@ -50,12 +50,12 @@
     border-radius: 50%;
     top: 50%;
     left: 50%;
-    over-flow: hidden;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgb(87, 87, 87), inset 0px 0px 20px rgb(83, 83, 83);
+    cursor: url('heart.png'),pointer;
 }
 
-#magnify:active {
-    background-size: 1500px;
-}
+
 .fixed__btn{
     position: fixed;
     bottom: 0;
